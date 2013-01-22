@@ -1,0 +1,26 @@
+.0x2c-timeout-histogram {
+    border: solid 2px #fff !important;
+    box-sizing: content-box !important;
+    color: #000 !important;
+    display: block !important;
+    font: 12px Arial,Helvetica !important;
+    height: auto !important;
+    margin: 0 !important;
+    opacity: 0.5 !important;
+    padding: 7px 10px !important;
+    position: fixed !important;
+    text-align: left !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    visibility: visible !important;
+    width: auto !important;
+    z-index: 2147483647 !important;
+    -webkit-border-radius: 5px !important;
+    -webkit-box-shadow: 0px 0px 20px #000 !important;
+    -webkit-box-sizing: content-box !important;
+    right: 20px !important;
+    top: 15px !important;
+    background-color: rgb(200, 200, 0) !important;
+    background-position: initial initial !important;
+    background-return: initial initial !important;
+}

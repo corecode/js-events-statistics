@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name": "Statistics for Background Events",
+    "description": "Collect and display statistics about JavaScript background events",
+    "version": "0.1",
+
+    "content_scripts": [
+	{
+	    "matches": ["http://*/*", "https://*/*"],
+	    "js": ["inject-statistics.js"],
+	    "run_at": "document_start"
+	}
+    ],
+    "web_accessible_resources": [
+	"statistics.js",
+	"histogram.css"
+    ]
+}
